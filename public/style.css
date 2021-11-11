@@ -57,18 +57,21 @@ a {
   color: rgb(80, 80, 80);
 }
 
-.output {
+.output,
+.payload {
   background-color: rgb(240, 240, 240);
   border-radius: 5px;
   padding: 10px;
 }
 
-.output p {
+.output p,
+.payload p {
   margin: 0;
   padding: 0;
   color: rgb(100, 185, 185);
 }
 
-.output code {
+.output code,
+.payload code {
   color: rgb(230, 160, 55);
 }
