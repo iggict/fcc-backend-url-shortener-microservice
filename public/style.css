@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+html {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: rgb(80, 80, 80);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.api-example {
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.end-point {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+
+.end-point:hover {
+  text-decoration: underline;
+}
+
+.end-point a {
+  color: rgb(80, 80, 80);
+}
+
+.output {
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.output p {
+  margin: 0;
+  padding: 0;
+  color: rgb(100, 185, 185);
+}
+
+.output code {
+  color: rgb(230, 160, 55);
+}

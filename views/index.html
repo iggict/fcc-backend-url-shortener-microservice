@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener Microservice<</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>URL Shortener Microservice</h1>
+      <hr />
+    </header>
+    <main class="container">
+      <h3>Usage example:</h3>
+      <h4>GET:</h4>
+      <div class="api-example">
+        <div class="end-point">
+          project_url<a href="/api/shorturl/3">/api/shorturl/3</a>
+        </div>
+        <div class="output">
+          <p>
+            Will redirect to:
+            <a href="https://forum.freecodecamp.org/"
+              >https://forum.freecodecamp.org/</a
+            >
+          </p>
+        </div>
+      </div>
+      <h4>POST:</h4>
+      <div class="api-example">
+        <div class="end-point">
+          project_url<a href="#">/api/shorturl</a>
+          <span class="post-url"> - URL: https://www.google.com</span>
+        </div>
+        <div class="output">
+          <p>
+            Output:
+            <code>{"original_url":"https://www.google.com","short_url":1}</code>
+          </p>
+        </div>
+      </div>
+      <div class="api-example">
+        <div class="end-point">
+          project_url<a href="#">/api/shorturl</a>
+          <span class="post-url"> - URL: this_is_not_a_valid_url</span>
+        </div>
+        <div class="output">
+          <p>
+            Output:
+            <code>{ error: 'invalid url' }</code>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
