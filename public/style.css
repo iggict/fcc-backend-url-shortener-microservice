@@ -28,6 +28,12 @@ a {
   text-decoration: none;
 }
 
+fieldset {
+  padding: 20px;
+  border-color: rgb(100, 185, 185);
+  border-radius: 5px;
+}
+
 .container {
   width: 50%;
   min-width: 600px;
